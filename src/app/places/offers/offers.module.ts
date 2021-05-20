@@ -7,14 +7,17 @@ import { IonicModule } from '@ionic/angular';
 import { OffersPageRoutingModule } from './offers-routing.module';
 
 import { OffersPage } from './offers.page';
+import {OfferItemComponent} from './offer-item/offer-item.component';
+import {SharedModule} from '../../shared/shared.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    OffersPageRoutingModule
+    OffersPageRoutingModule,
+    SharedModule
   ],
-  declarations: [OffersPage]
+    declarations: [OffersPage, OfferItemComponent]
 })
 export class OffersPageModule {}
