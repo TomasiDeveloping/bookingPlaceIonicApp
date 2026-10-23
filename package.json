@@ -33,7 +33,7 @@
     "@angular-eslint/eslint-plugin": "21.0.1",
     "@angular-eslint/eslint-plugin-template": "21.0.1",
     "@angular-eslint/template-parser": "21.0.1",
-    "@angular/cli": "~21.2.21",
+    "@angular/cli": "~21.2.28",
     "@angular/compiler": "~21.2.23",
     "@angular/compiler-cli": "~21.2.23",
     "@angular/language-service": "~11.2.0",
